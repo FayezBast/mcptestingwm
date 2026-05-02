@@ -1,0 +1,14 @@
+{
+  "name": "my-mcp-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal public HTTP MCP server for WorldMonitor Connect",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
