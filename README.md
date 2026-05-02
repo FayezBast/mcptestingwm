@@ -1,6 +1,8 @@
 # mcptestingwm
 
-Minimal MCP server for connecting custom tools to the WorldMonitor Connect MCP panel.
+Test repository for validating MCP connectivity to the World Monitor MCP.
+
+It includes a minimal MCP server setup used to connect custom tools to the WorldMonitor Connect MCP panel.
 
 ## Repo layout
 
