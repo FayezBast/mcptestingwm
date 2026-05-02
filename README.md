@@ -28,19 +28,21 @@ These tools return JSON inside MCP text content blocks so WorldMonitor can rende
 ## Run locally
 
 ```bash
-cd my-mcp-server
 export MCP_TOKEN=change-me
 npm start
 ```
+
+You can also run the server from inside `my-mcp-server/`, but the repo root now works directly as the Railway entrypoint.
 
 ## Deploy on Railway
 
 1. Push this repo to GitHub.
 2. Create a Railway project from the GitHub repo.
-3. Set the service root to `my-mcp-server` if needed.
-4. Add the `MCP_TOKEN` environment variable in Railway.
-5. Deploy the service.
-6. Copy the public Railway domain.
+3. Add the `MCP_TOKEN` environment variable in Railway.
+4. Deploy the service.
+5. Copy the public Railway domain.
+
+This repo is now root-deployable on Railway, so you do not need to set a `Root Directory` override.
 
 Your MCP URL in WorldMonitor will be:
 
